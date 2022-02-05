@@ -42,8 +42,8 @@ function generarCabecera() {
 	//anadir atributos
 	header.setAttribute("id", "main-header");
 	a.setAttribute("id", "logo-header");
-	a.setAttribute("href", "#");
-	img.setAttribute("src", "LogoAgrorent.png");
+	a.setAttribute("href", "index.html");
+	img.setAttribute("src", "Assets/LogoAgrorent.svg");
 	img.setAttribute("id", "logocabecera");
 
 	//agregamos etiquetas dentro de otras etiquetas
