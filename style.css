@@ -75,12 +75,15 @@ img {
 	display: flex;
 	gap: 160px;
 	margin: auto;
-	padding: 20px 15px 20px;
 	color: white;
 }
 
+.tituloIniciarSesion{
+	padding: 40px 10px 10px;
+}
+
 #imagenSign{
-	height: 900px;
-	width: 130000px;
+	height: 640px;
+	width: 700px;
 }
 
