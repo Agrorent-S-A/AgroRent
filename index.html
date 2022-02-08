@@ -6,17 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AGRORENT 🍏</title>
+    <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css"
+        rel="stylesheet" /><!-- Te da la lupa del input -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
     <link rel="shortcut icon" href="Assets/LogoAgrorent.svg" />
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="header.css">
-    
-    
+
 </head>
 <!-- cabecera -->
 <div class="cabecera">
 
 </div>
+
+
 <!-- Primera seccion -->
 <section id="main-content">
 
@@ -25,7 +32,32 @@
             <h1>Alquila tu invernadero ideal cerca de ti</h1>
         </header>
 
-        <img src="Assets/invernaderoaire.jpg" alt="invernadero desde el aire" id="fotoinvernadero"/>
+        <div class="input-group input-group-lg">
+            <div class="input-group-prepend">
+                <button class="input-group-text" id="inputGroup-sizing-lg"><i class="icon-search"></i></button>
+            </div>
+            <input type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm">
+        </div>
+
+        <div class="row" id="section1">
+            <div class="col-8">
+                <img src="Assets/tractor.jpg" id="imagentractor">
+            </div>
+            <div class="col-4">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip
+                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                    dolore eu
+                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est laborum.</p>
+            </div>
+
+        </div>
+
+
+        <img src="Assets/invernaderoaire.jpg" alt="invernadero desde el aire" id="fotoinvernadero" />
 
         <div class="content">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
