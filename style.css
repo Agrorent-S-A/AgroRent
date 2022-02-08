@@ -60,6 +60,13 @@ img {
 
 /* Estas líneas de CSS las usaremos para dar estilo a la cabecera: */
 
+/*foto invernadero horizontal*/
+
+#fotoinvernadero{
+	width: 900px;
+	height: 300px;
+}
+ 
 
 
 /* Iniciar sesion */
