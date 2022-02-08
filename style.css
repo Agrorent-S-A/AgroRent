@@ -4,7 +4,6 @@ body {
 	margin: 0;
 	padding: 0;
 	font-family: Helvetica, Arial, sans-serif;
-	color: #00855D;
 	background: #00855D; 
 	font-size: 1em;
 	line-height: 1.5em;
@@ -29,6 +28,8 @@ img {
 	height: auto;
 }
 
+
+
 /* Estas líneas de CSS las usaremos para dar estilo a la cabecera: */
 
 /*foto invernadero horizontal*/
@@ -38,3 +39,20 @@ img {
 	height: 300px;
 }
  
+
+
+/* Iniciar sesion */
+
+.iniciarSesion{
+	display: flex;
+	gap: 160px;
+	margin: auto;
+	padding: 20px 15px 20px;
+	color: white;
+}
+
+#imagenSign{
+	height: 900px;
+	width: 130000px;
+}
+
