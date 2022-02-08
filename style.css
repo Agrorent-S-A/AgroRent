@@ -1,4 +1,8 @@
-*{margin:0; padding: 0;}
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;
+}
 
 /* Main Content */
 #main-content {
@@ -31,12 +35,17 @@
 body {
 	margin: 0;
 	padding: 0;
+<<<<<<< Updated upstream
 	font-family: Helvetica, Arial, sans-serif;
 	background: #00855D; 
+=======
+	color: #00855D;
+	background: #00855D;
+>>>>>>> Stashed changes
 	font-size: 1em;
 	line-height: 1.5em;
-
-    padding-top: 80px; /* Relleno superior igual a la altura de la cabecera*/
+	padding-top: 80px;
+	/* Relleno superior igual a la altura de la cabecera*/
 }
 
 h1 {
@@ -57,7 +66,13 @@ img {
 	max-width: 100%;
 	height: auto;
 }
+.input-append{
 
+	
+
+}
+
+<<<<<<< Updated upstream
 
 
 /* Estas líneas de CSS las usaremos para dar estilo a la cabecera: */
@@ -86,3 +101,6 @@ img {
 	width: 130000px;
 }
 
+=======
+/* Estas líneas de CSS las usaremos para dar estilo a la cabecera: */
+>>>>>>> Stashed changes
