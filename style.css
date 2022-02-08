@@ -87,3 +87,12 @@ img {
 }
 
 /* Estas líneas de CSS las usaremos para dar estilo a la cabecera: */
+
+#section1{
+	margin-top: 7%;
+}
+
+#imagentractor{
+	margin-left: -20%;
+}
+
