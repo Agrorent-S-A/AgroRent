@@ -1,12 +1,8 @@
-* {
-	margin: 0;
-	padding: 0;
-	font-family: Helvetica, Arial, sans-serif;
-}
+
 
 /* Main Content */
 #main-content {
-    
+
     width: 90%;
     max-width: 800px;
     margin: 20px auto;
@@ -63,13 +59,6 @@ img {
 	max-width: 100%;
 	height: auto;
 }
-
-
-
-
-
-
-
 
 /* Estas líneas de CSS las usaremos para dar estilo a la cabecera: */
 
