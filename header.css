@@ -83,6 +83,7 @@ nav ul li a:hover {
     /* Posicionamos la cabecera pegada arriba */
     position: fixed;
     /* Hacemos que la cabecera tenga una posición fija */
+    z-index: 9;
 }
 
 #logocabecera {
