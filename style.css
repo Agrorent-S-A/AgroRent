@@ -60,6 +60,10 @@ img {
 	height: auto;
 }
 
+h3{
+	color:white;
+}
+
 /* Estas líneas de CSS las usaremos para dar estilo a la cabecera: */
 
 /*foto invernadero horizontal*/
@@ -95,4 +99,13 @@ img {
 #imagentractor{
 	margin-left: -20%;
 }
+
+.content{
+	text-align: center;
+}
+
+h4{
+	color: white;
+}
+
 
