@@ -17,9 +17,7 @@
     text-decoration: none;
 }
 
-#logo-header:hover {
-    color: #0b76a6;
-}
+
 
 #logo-header .site-name {
     display: block;
@@ -89,4 +87,35 @@ nav ul li a:hover {
 #logocabecera {
     height: 50px;
     width: 50px;
+}
+
+@media screen and (max-width: 600px) {
+
+    #logo-header {
+        margin: auto;
+        margin-left: 35%;
+        text-decoration: none;
+    }
+
+    #main-header {
+        background: #ffffff;
+        color: white;
+        height: 145px;
+        width: 100%;
+        font-size: 13px;
+        z-index: 9;
+
+    }
+
+    #main-content header,
+    #main-content .content {
+        margin: auto;
+
+    }
+
+    nav ul li a:hover {
+        background: #58dba9;
+
+    }
+
 }
